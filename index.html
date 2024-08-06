@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: orange;
+        font-size: large;
+    }
+    h2{
+        text-align: center;
+    }
+    #msg{
+        text-align: center;
+    }
+    #score{
+        text-align: center;
+    }
+    #gameboard{
+        border: 3px solid red;
+        margin-left: 30%;
+    }
+</style>
+<body>
+    <h2>Snake game</h2>
+    <div id="msg">press space to pause or continue</div>
+    <div id="container">
+        <canvas id="gameboard" width="500px" height="500px"></canvas>
+    </div>
+    <div id="score">score:<span id="scoreVal">0</span></div>
+</body>
+<script src="script.js"></script>
+</html>
